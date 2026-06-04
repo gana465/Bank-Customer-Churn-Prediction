@@ -1,0 +1,5 @@
+from sympy import symbols
+x=sp.symbol('x')
+n=[1,1,1,1,1]
+series=sum(n(a)*x**a for a in range(5))
+print('Series is ',series)
